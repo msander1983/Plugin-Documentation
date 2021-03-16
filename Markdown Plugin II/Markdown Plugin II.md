@@ -55,22 +55,27 @@ The settings for converting Markdown to Flare topics are set in a file called `M
 </Settings>
 ```
 
-These are the settings you can make: 
+#### Import settings
+- Convert to MadCap Code Snippet
+- Convert local links (and #-links) to cross-references
+- Convert commented out html tags (<!--<div>-->) to HTML
+- Convert //comments to MadCap:annotations
+- Copy images upon import
+- Import tables without adding headers to tables that don't have them.
+- Export YAML meta data.
+- Convert [[Wiki links]] to xrefs (only relevant for folder import).
+- Add GitHub repo URL meta data to imported files. /blob/main/ only
+- Convert [block:image] and [block:code] elements to <img> and <code> respectively.
+- Convert #keyword to <MadCap:keyword term=""keyword""/>
+- Merge adjacent empty table cells in a row.
+- Import tables with <tbody> and <thead>
+- Convert #-links to lower case
 
-| Settings | Comment | 
-| --- | --- | 
-| HeaderlessTables | If **true** (default) - Markdown tables without headers are converted to headerless tables. If **false** - tables are converted with headers, even if the Markdown tables don't have headers. |
-| ComplexTables | If **true** - adjacent empty table cells to the right are merged with the previous cell. The default setting is **false**|
-| RemoveAttributesOnExport |  If set to **true** the HTML file is exported to Markdown without attributes.  If set to **false** (default) - any HTML element with attributes is exported as HTML to the Markdown file. |
-| ConvertXrefs | If set to **true** any MadCap:xref elements are converted to Markdown as regular hyperlinks. |
-| ConvertLocalLinksToXref | If set to **true** any local links are converted to MadCap:xref when converting from Markdown to Flare. |
-| ExportYaml | If set to **true** meta-data and conditions, condition tag expressions, and file tags are exported from your Flare topics and snippets to YAML in the Markdown file. |
-| UseMadCapCodeSnippet | If set to **true** imports code from Markdown to Flare using the code snippet.  |
-| ConvertedCommentedTags | If set to **true** - imports commented out HTML tags as HTML. |
-| ExportUnsupportedTagsAsComments | If set to **true** - exports HTML tags without attributes and that are not supported by the Markdown format to commented HTML tags. Use in conjuction with the **ConvertedCommentedTags** setting. |
-| ConvertCommentsToAnnotations | If set to **true** - commented lines `// My comment here` are converted to MadCap:annotations. |
-| CopyImages | If set to **true** - images are converted upon import. |
-
+#### Export settings
+- Export HTML elements without attributes to keep the Markdown clean.
+- Convert MadCap:xref to regular links on export.
+- Export unsupported tags as <!--<MyTag>--> comments.
+	
 ### YAML meta data
 If a Markdown file contains YAML dat, the YAML tags are converted to meta-tags in Flare. 
 * There are a few special cases that are processed differently:
@@ -135,12 +140,14 @@ C:\>MarkdownCommander -export "C:\...\from-folder\mytopic.htm" "C:\...\to-folder
 | /s | Suppress dialogs. |
 | `/settings:[file]` | Uses a specific settings file for the Markdown import, e.g. `"/settings:C:\users\mattias\my files\mySettings.xml"` |
 
-<!--<div MadCap:conditions="Release.Don't Publish Yet">-->
 To generate a TOC from a folder structure:
+	
 ```
 C:\>MarkdownCommander -toc "C:\my folder" "C:\...\myToc.fltoc"
 ```
-<!--</div>-->
+	
+> If a folder is called "/My Folder/" and has a corresponding Markdown file called "My Folder.md" - that file is used is the parent topic for the node of that folder. Otherwise the folder node will be empty. 
+	
 ## Ignoring files
 * To keep files from being imported, you can set up a `.markdownimportignore` file in the source folder.
 * To keep files from being exported, you can set up a `.markdownexportignore` file in the source folder.

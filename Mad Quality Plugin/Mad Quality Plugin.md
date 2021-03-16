@@ -19,6 +19,7 @@ Schematron is  simple language with only five important elements:
 
 | Date       | Version | What's new?                                                  |
 | ---------- | ------- | ------------------------------------------------------------ |
+| 2021-03-16 | 		   | Updated help call URL. |
 | 2020-10-22 |         | The last column in the Rule Browser now word wraps.          |
 | 2020-04-03 |         | To improve usability - the Rule Browser no longer displays the full file name. |
 | 2019/05/31 |         | Updates to the help call.                                    |
