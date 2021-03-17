@@ -2,6 +2,7 @@
 
 | Date       | Version        | What's new?                                                  |
 | ---------- | -------------- | ------------------------------------------------------------ |
+|2021-03-17|2.0.7746.14208|Clarified MDI vs MD2 icons.|
 | 2021-03-16 | 2.0.7745.39186 | Updated help call URL. |
 | 2021-03-09 | 2.0.7738.17309 | Fixed a bug that causes the topic creator functionality to crash in some cases. Added small icons to buttons. |
 | 2021-03-06 | 2.0.7735.36061 | New color icons that work better for dark mode.              |

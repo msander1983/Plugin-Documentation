@@ -2,7 +2,7 @@
 
 The plugin is based on the CommonMark specification. For more information, see the [CommonMark specification](https://spec.commonmark.org/).
 
-For documentation of the first version of the Markdown plugin, see the [Markdown Plugin documentation](Markdown Plugin.md).
+For documentation of the first version of the Markdown plugin, see the [[Markdown Plugin]] documentation.
 
 ## Release Notes 
 
@@ -58,23 +58,23 @@ The settings for converting Markdown to Flare topics are set in a file called `M
 #### Import settings
 - Convert to MadCap Code Snippet
 - Convert local links (and #-links) to cross-references
-- Convert commented out html tags (<!--<div>-->) to HTML
+- Convert commented out html tags (`<!--<div>-->`) to HTML
 - Convert //comments to MadCap:annotations
 - Copy images upon import
 - Import tables without adding headers to tables that don't have them.
 - Export YAML meta data.
-- Convert [[Wiki links]] to xrefs (only relevant for folder import).
+- Convert `[[Wiki links]] `to xrefs (only relevant for folder import).
 - Add GitHub repo URL meta data to imported files. /blob/main/ only
-- Convert [block:image] and [block:code] elements to <img> and <code> respectively.
-- Convert #keyword to <MadCap:keyword term=""keyword""/>
+- Convert `[block:image]` and `[block:code]` elements to `<img>` and `<code> `respectively.
+- Convert #keyword to `<MadCap:keyword term=""keyword""/>`
 - Merge adjacent empty table cells in a row.
-- Import tables with <tbody> and <thead>
+- Import tables with `<tbody>` and `<thead>`
 - Convert #-links to lower case
 
 #### Export settings
 - Export HTML elements without attributes to keep the Markdown clean.
 - Convert MadCap:xref to regular links on export.
-- Export unsupported tags as <!--<MyTag>--> comments.
+- Export unsupported tags as `<!--<MyTag>-->` comments.
 	
 ### YAML meta data
 If a Markdown file contains YAML dat, the YAML tags are converted to meta-tags in Flare. 
