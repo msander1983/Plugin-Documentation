@@ -29,7 +29,7 @@ See the [release information](https://github.com/msander1983/MarkdownPluginRelea
 > If a topic is called `Topic.htm`, the corresponding Markdown file would be `Topic.md`, and for a snippet called `Snippet.flsnp`, the corresponding Markdown files is `Snippet.flsnp.md`.
 
 ## Misc
-* Convert a Flare topics to a Flare TOC file (Experimental).
+* Convert a Flare topics to a Flare TOC file
 
 ## Markdown Editor
 Use the built-in Markdown editor to see what your Markdown is converted to with the plugin. 
@@ -75,7 +75,7 @@ The settings for converting Markdown to Flare topics are set in a file called `M
 - Export HTML elements without attributes to keep the Markdown clean.
 - Convert MadCap:xref to regular links on export.
 - Export unsupported tags as `<!--<MyTag>-->` comments.
-	
+
 ### YAML meta data
 If a Markdown file contains YAML dat, the YAML tags are converted to meta-tags in Flare. 
 * There are a few special cases that are processed differently:
