@@ -24,7 +24,7 @@ The following CSS syntax is supported
 - `[class*="chair"]` class contains chair
 - `[class$="chair"]` class ends with chair
 
-## Pseudo Selectors
+## Pseudo Selectors/Functions
 - `div:empty` element with no children
 - `p:first-of-type` first of some type
 - `p:last-of-type` last of some type
@@ -39,9 +39,8 @@ The following CSS syntax is supported
 - `p:only-of-type` unique of its parent
 - `p:only-child` only child of its parent
 -  `p:has(br)` element that contains another element
+> You can have one element in the `:has()` selector.
 -  `p:contains(text)` element that contains *text*
--  `p:regex(\bWord\b)` element that contains the regular expression within the parenthesis. 
-
 
 
 

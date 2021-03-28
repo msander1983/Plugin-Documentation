@@ -1,2 +1,0 @@
-> The plugin supports advanced XPath statements, but no documentation is provided for this. If you need assistance, please contact me at mattias@improvementsoft.com.
-> To test XPath-statements, you can use [https://www.xpathtester.com/xpath](http://www.xpathtester.com/xpath)
