@@ -4,6 +4,10 @@ The plugin is based on the CommonMark specification. For more information, see t
 
 For documentation of the first version of the Markdown plugin, see the [[Markdown Plugin]] documentation.
 
+You can download the latest installer from [https://github.com/msander1983/MarkdownPluginRelease/releases/latest](https://github.com/msander1983/MarkdownPluginRelease/releases/latest).
+
+To purchase a license, go to [gum.co/markdown2](https://gum.co/markdown2).
+
 ## Release Notes 
 
 See the [release information](https://github.com/msander1983/MarkdownPluginRelease/releases).
@@ -119,6 +123,8 @@ is imported as
 ## MarkdownCommander.exe CLI
 
 With the MarkdownCommander CLI you can import and export files using the command line. 
+
+> The **MarkdownCommander.exe** file is located in your `C:\...\Flare.app` folder. 
 
 To import Markdown files to topics:
 ```

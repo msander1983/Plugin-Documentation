@@ -1,6 +1,9 @@
 # CSS Syntax
 The following CSS syntax is supported
 
+## Special tags
+- `Text` all p, li (without p), and td (without p) elements. 
+
 ## Tag Selectors
 - `*` all elements
 - `div` all div tags
@@ -39,7 +42,6 @@ The following CSS syntax is supported
 - `p:only-of-type` unique of its parent
 - `p:only-child` only child of its parent
 -  `p:has(br)` element that contains another element
-> You can have one element in the `:has()` selector.
 -  `p:contains(text)` element that contains *text*
 
 

@@ -6,7 +6,7 @@ Here's a webinar about the plugin: [How to Increase Your Productivity in MadCap
 
 See the [[Kaizen Plugin Release Notes]]. 
 
-## Replace tags using REGEX
+## Replace tags using REGEX ![](../../tag_hash.png)
 
 With the **Advanced Tag Replacer** you can search and replace any tag, attribute or set of attributes in your Flare project.
 
@@ -22,7 +22,7 @@ To replace tags or tag attributes in your project:
 
 The tags have now been replaced. To undo - click **Undo**.
 
-## Import micro content from Excel
+## Import micro content from Excel ![](../../microformats.png)
 
 To import micro content from Excel:
 
@@ -31,7 +31,7 @@ To import micro content from Excel:
 
 The micro content file opens.
 
-## Split a topic and create a TOC
+## Split a topic and create a TOC ![](../../arrow_divide.png)
 
 Splitting a topic file is a quick and easy way to create a new manual from a single topic file. You can split a topic files by H1-H4.
 

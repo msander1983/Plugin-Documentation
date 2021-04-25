@@ -1,4 +1,4 @@
-# Mad Quality Plugin
+# Mad Quality Plugin (Deprecated)
 
 The Mad Quality Plugin is based on the Schematron  standard, which is a rule-based validation language for making  assertions about the presence or absence of patterns in XML trees. It is a structural schema language expressed in XML using a small number of  elements and XPath.
 
