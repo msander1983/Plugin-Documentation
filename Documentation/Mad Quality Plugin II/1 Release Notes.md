@@ -1,5 +1,9 @@
 ﻿# Release Notes
 
+## 1.0.16
+- Removed the "annotate element" function.
+- Added timout for rules (10 seconds), and for files (30 seconds).
+
 ## 1.0.15
 - Bug fixes in the default rules. 
 - Validation of all the default rules. 

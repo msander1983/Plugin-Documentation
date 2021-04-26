@@ -2,6 +2,7 @@
 
 | Date       | Version        | What's new?                                                  |
 | ---------- | -------------- | ------------------------------------------------------------ |
+|2021-04-26|2.0.7786.20438|Corrected bug related to creating a TOC and bookmarking the topic, as well as bug that would sometimes remove text when all changes were accepted. |
 |2021-04-09| |Added button to open a random topic or snippet|
 |2021-03-17|2.0.7746.14208|Clarified MDI vs MD2 icons.|
 | 2021-03-16 | 2.0.7745.39186 | Updated help call URL. |
