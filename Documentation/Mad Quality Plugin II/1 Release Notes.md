@@ -1,5 +1,8 @@
 ﻿# Release Notes
 
+## 1.0.17
+- Fixed a bug that caused the RawRegex function to fail.
+
 ## 1.0.16
 - Removed the "annotate element" function.
 - Added timout for rules (10 seconds), and for files (30 seconds).
