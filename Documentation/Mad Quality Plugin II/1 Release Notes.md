@@ -1,5 +1,8 @@
 ﻿# Release Notes
 
+## 1.0.18
+- Bug fix: When a topic contains an image that is linked to the web - the plugin crashed.
+
 ## 1.0.17
 - Fixed a bug that caused the RawRegex function to fail.
 
