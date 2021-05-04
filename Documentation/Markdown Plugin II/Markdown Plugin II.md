@@ -117,7 +117,7 @@ is imported as
 ```html
 <html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.Mobile,Default.Tablet" 
       MadCap:conditionTagExpression="include[Default.Mobile], exclude[Default.Tablet]" 
-      MadCap:snippetVariables="General.VersionNumber:1231231223," MadCap:fileTags="Author.Author1,Author.Author2">
+     MadCap:fileTags="Author.Author1,Author.Author2">
 ```
 
 ## MarkdownCommander.exe CLI

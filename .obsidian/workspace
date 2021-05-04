@@ -7,8 +7,11 @@
         "id": "9ed4bcb5e79c5fc9",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Documentation/Markdown Plugin II/Markdown Plugin II.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Documentation/Markdown Plugin II/Markdown Plugin II.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,15 +88,15 @@
   },
   "active": "9ed4bcb5e79c5fc9",
   "lastOpenFiles": [
+    "Documentation/Markdown Plugin II/Markdown Plugin II.md",
+    "Documentation/Markdown Plugin/Markdown Plugin.md",
+    "Documentation/Mad Quality Plugin/Mad Quality Plugin.md",
     "Documentation/Mad Quality Plugin II/Untitled.md",
     "Documentation/Mad Quality Plugin II/Mad Quality Plugin II.md",
     "Documentation/Mad Quality Plugin II/5 Examples.md",
     "Documentation/Mad Quality Plugin II/4 CSS Syntax.md",
     "Documentation/Mad Quality Plugin II/1 Release Notes.md",
     "Documentation/Mad Quality Plugin II/3 Setting up validation rules.md",
-    "Documentation/Mad Quality Plugin II/2 Install the Mad Quality Plugin.md",
-    "Documentation/Kaizen Plugin/Kaizen Plugin Release Notes.md",
-    "Documentation/Mad Quality Plugin II/6 Command Line Interface.md",
-    "Documentation/Kaizen Plugin/Kaizen Plugin.md"
+    "Documentation/Mad Quality Plugin II/2 Install the Mad Quality Plugin.md"
   ]
 }
