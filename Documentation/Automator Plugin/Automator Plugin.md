@@ -8,7 +8,7 @@ To learn how SimCorp uses the Automator plugin see the MadCap webinar: [The Powe
 
 | Date | What's new? |
 | --- | --- |
-| 2021-03-16 | 		   | Updated help call URL. |
+| 2021-03-16 | Updated help call URL. |
 | 2020-04-12 | Corrected a bug where the \[%root%\] variable returned the root path with "" at the end - causing python scripts to fail. |
 | 2020-05-06 | Updated installer so that it works with Flare 2020.|
 | 2019-05-31 | First release.| 
