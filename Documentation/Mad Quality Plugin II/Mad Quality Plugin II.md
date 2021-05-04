@@ -1,4 +1,7 @@
 # Mad Quality Plugin II 
+
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque corporis minima obcaecati fugiat tempora excepturi mollitia delectus consequatur minus quidem?
+
 With the Mad Quality Plugin II you can automatically check the quality of your topics in Flare. 
 
 You can check for both structural problems, 
