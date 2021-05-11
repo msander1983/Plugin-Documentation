@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Documentation/Markdown Plugin II/Markdown Plugin II.md",
+            "file": "Documentation/Kaizen Plugin/Kaizen Plugin Release Notes.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "63d8147ac811052b"
+      },
+      {
+        "id": "c153ec1567e65d0d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Documentation/Kaizen Plugin/Kaizen Plugin Release Notes.md",
+            "mode": "preview"
+          }
+        },
+        "group": "63d8147ac811052b"
       }
     ],
     "direction": "vertical"
@@ -68,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Documentation/Markdown Plugin II/Markdown Plugin II.md",
+                "file": "Documentation/Kaizen Plugin/Kaizen Plugin Release Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +101,15 @@
   },
   "active": "9ed4bcb5e79c5fc9",
   "lastOpenFiles": [
+    "Documentation/Kaizen Plugin/Kaizen Plugin Release Notes.md",
+    "Documentation/Mad Quality Plugin II/3 Setting up validation rules.md",
+    "Documentation/Mad Quality Plugin II/Mad Quality Plugin II.md",
     "Documentation/Markdown Plugin II/Markdown Plugin II.md",
     "Documentation/Markdown Plugin/Markdown Plugin.md",
     "Documentation/Mad Quality Plugin/Mad Quality Plugin.md",
     "Documentation/Mad Quality Plugin II/Untitled.md",
-    "Documentation/Mad Quality Plugin II/Mad Quality Plugin II.md",
     "Documentation/Mad Quality Plugin II/5 Examples.md",
     "Documentation/Mad Quality Plugin II/4 CSS Syntax.md",
-    "Documentation/Mad Quality Plugin II/1 Release Notes.md",
-    "Documentation/Mad Quality Plugin II/3 Setting up validation rules.md",
-    "Documentation/Mad Quality Plugin II/2 Install the Mad Quality Plugin.md"
+    "Documentation/Mad Quality Plugin II/1 Release Notes.md"
   ]
 }
