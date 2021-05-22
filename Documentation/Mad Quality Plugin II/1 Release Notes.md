@@ -1,5 +1,13 @@
 ﻿# Release Notes
 
+## 1.0.19 (2021-05-22)
+- Enabled silent mode on the installer (/S).
+- Added option to link to rule file in remote location, for example on a network drive or on the web. 
+- Added Google Developer Style Guide rules. 
+- Corrections to the template rule set. 
+- The results window now automatically closes when you process another rule set. 
+- You can now process any Flare XML file, e.g. .fltar, .fltoc etc. 
+
 ## 1.0.18
 - Bug fix: When a topic contains an image that is linked to the web - the plugin crashed.
 
