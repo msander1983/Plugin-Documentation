@@ -1,5 +1,9 @@
 ﻿# Release Notes
 
+## 1.0.20 (2021-05-26)
+- Corrected spelling errors. 
+- Fixed issue with licensing. 
+
 ## 1.0.19 (2021-05-22)
 - Enabled silent mode on the installer (/S).
 - Added option to link to rule file in remote location, for example on a network drive or on the web. 
