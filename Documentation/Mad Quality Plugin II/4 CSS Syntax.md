@@ -1,5 +1,7 @@
 # CSS Syntax
-The following CSS syntax is supported
+The following CSS syntax is supported.
+
+> To use XPath syntax, prefix the `context` value with `xpath:`
 
 ## Special tags
 - `Text` all p, li (without p), and td (without p) elements. 

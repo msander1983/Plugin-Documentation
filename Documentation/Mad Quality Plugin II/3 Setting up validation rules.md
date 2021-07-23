@@ -42,6 +42,8 @@ A rule consists of these parts:
 	- **Readability**. Matches elements with a readability score lower than the parameter value you set, for example `60`.
 	- **FileNameRegex**. Matches the file name based on a regular expression. For example, you can set up a rule to ensure that file names don't have spaces, or only have lower-case letters. 
 	
+	> Both the **Word** and **ListOfWords** functions can include REGEX in the left hand side of the parameter. 
+	
 **IgnoreCase**
 - A TRUE/FALSE option. For rules based on regular expressions this setting determines whether to ignore the letter-case of the matching text. 
 
