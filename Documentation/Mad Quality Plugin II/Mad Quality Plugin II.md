@@ -1,5 +1,5 @@
 # Mad Quality Plugin II 
-With the Mad Quality Plugin II you can automatically check the quality of your topics in Flare. 
+With the Mad Quality Plugin II you can automatically validate the quality of your topics in Flare. 
 
 You can check for both structural problems, 
 - such as `<p><h1>Lorem ipsum</h1></p>`, 

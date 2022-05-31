@@ -1,6 +1,62 @@
 ﻿# Release Notes
 
-## 1.0.21 (2021-07-19)
+## 1.0.29 (2022-05-09)
+- New FEATURES:
+	- You can now run ad-hoc CSS searches to find elements matching a certain CSS expression. Just click the **Search (CSS)** button and enter your query.
+	- To quickly validate the XHTML of all topics - you can click the "Validate XML" button. 
+- BUG fixes: 
+	- Fixed cosmetic issue in the preview window. 
+	- Corrected bug in the RawRegex function that would prevent you from using the MadCap-namespace in your REGEX expressions. 
+
+## 1.0.28 (2022-03-17)
+- Removed a dependency on Google prettyprint.
+- Made sure non-breaking spaces show up in the HTML preview.
+- The CSV file now shows the actual word from the rule instead of just "%s" or "%t".
+- The MS-20210413120632 rule was updated to avoid a sentence being flagged as having no closing punctuation when it in fact did, only there was a space after the punctuation. 
+**NOTE:** Changes to rules only apply to newly created rule sets. 
+- Bug fix: If a TOC entry linked to a specific bookmark in a file - that file would not be scanned.
+
+## 1.0.27 (2022-03-08)
+- A bug fix to the filter functionality. 
+
+## 1.0.26 (2022-03-01)
+- Extended bug reporting via email.
+- Fixed a bug in the .ignore-functionality. 
+- If you write an xpath statement that returns an XNode that is not an XElement - that would not be supported. Now it is, in the sense that if the match is a non XElement XNode - the parent XElement is returned.
+- Added a rule to the default rule set to find images without ALT texts (https://www.w3.org/WAI/WCAG21/quickref/#non-text-content)
+
+## 1.0.25 (2021-12-06)
+- Fixed a problem where files in /Project/Users/.../Backups were included in the scan. 
+- Changed the timeout limit from 10 seconds to 15 seconds for individual rules.
+- Added support for REGEX matching with attributes, e.g. `[class %= \bMyWord\b]`.
+- New dialog when there are no broken rules. 
+- Enabled XML log mode for the MadQualityCommander using the `/xml` flag. 
+- Folders are now shown in the rule violation window.
+- Performance improvements. 
+- Filtering of the broken rules with free text.
+- You can now ignore files by creating an `.mqignore` file with the appropriate file name pattern. Works like .gitignore. 
+- Fixed a problem with the license validator. 
+
+## 1.0.24 (2021-11-10)
+- Fixed License key problem. 
+
+## 1.0.23 (2021-11-03)
+- A correction to the REGEX of the MS-20210413120609 rule. 
+- Bug fix: `MadCap:concept` is now properly converted. 
+- Updated the license terms, making them less restrictive. 
+
+## 1.0.22 (2021-10-30)
+- Fixed a bug where REGEX expressions would sometimes not register properly. 
+- Changed the REGEX of MS-20210413120633 to avoid false positives. 
+- Fixed a bug where `MadCap:concept` was not properly converted to XPath.
+- Fixed a bug where a REGEX to detect a space at the start of an element did not work if the element started with a variable, or other element. 
+- Performance improvements. 
+- Change in MS-20210413120548 to ensure that "millimeters" and "centimeters" are matched. 
+- Fixed a bug where the RawRegex function would not work when e.g. a h1 element had a MadCap:variable as it's first child element.
+- The ":empty" selector now also includes non-breaking spaces. 
+- Added a new function: RegexInline, which will keep any inline HTML-elements in the matched element. For example `<h1>Lorem <span>ipsum</span></h1>` becomes `Lorem <span>ipsum</span>` rather than just `Lorem ipsum`.
+
+## 1.0.21 (2021-07-23)
 - You can now use XPath statements for the context by prefixing the context with "xpath:". The XPath statements must return an element node. Attribute or text nodes are currently not supported. 
 - Topics no longer time out at 90 seconds. This prevents long topics from timing out, but means that scanning the entire project takes longer. 
 - Various bug fixes. 

@@ -31,6 +31,7 @@ A rule consists of these parts:
 **Context**
 - The CSS-based context to apply the rule in. For example, to apply it to all paragraph `<p>` elements, the context would be `p`.<br>I recommend this reference: [MDN CSS selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
 
+
 > It is possible to use XPath in the context.<br>Examples:<br>- To match all paragraphs, enter: `xpath:.//p`<br>- To match a topic that has the `xml:lang="VALUE"`, enter: `xpath:.//html[@xml:lang]`
 
 **Function**
@@ -46,6 +47,7 @@ A rule consists of these parts:
 	| **ListOfWords** | This rule works like the **Word** rule, but on a list of words.<br>This function supports a RegEx syntax in the left-hand side of the parameter the **Parameters** column. | To find content that contains the words `checkbox` or `intelligent`, enter in the **Parameters** column:<br>`checkbox,intelligent`.<br>To also suggest replacement words, enter in the **Parameters** column:<br>`checkbox:check box,intelligent:smart` |
 	| **FileNameRegex** | The rule uses the RegEx syntax from the **Parameters** column to check the file names. | To find file names that contain spaces, you can configure:<br>`\s{1,}`<br>To find file names that contain capital letters, you can configure:<br>`[A-Z]` |
 	| **Readability** | Matches elements with a readability score lower than the value you configured in the **Parameters** column | `60` |
+
 	
 	> To develop and test regular expressions, I recommend these web sites: [RegEx101](https://regex101.com/), [RegEx Pal](https://www.regexpal.com/).
 	

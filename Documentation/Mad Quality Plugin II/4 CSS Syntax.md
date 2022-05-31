@@ -28,6 +28,7 @@ The following CSS syntax is supported.
 - `[class|="chair"]` class starts with the chair word
 - `[class*="chair"]` class contains chair
 - `[class$="chair"]` class ends with chair
+- `[class%="\bchair\b"]` class matches the regex `\bchair\b`
 
 ## Pseudo Selectors/Functions
 - `div:empty` element with no children
@@ -45,6 +46,8 @@ The following CSS syntax is supported.
 - `p:only-child` only child of its parent
 -  `p:has(br)` element that contains another element
 -  `p:contains(text)` element that contains *text*
+-  `p:regex('regex')` element that matches the regex (case sensitive) `'regex'`.
+-  `p:iregex('regex')` element that matches the regex (case insensitive) `'regex'`.
 
 
 
