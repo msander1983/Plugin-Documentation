@@ -1,5 +1,35 @@
 ﻿# Release notes - Kaizen Plugin
 
+## 2022-05-31 (2.2.3)
+- The QuickWord/PDF/HTML doesn't support non-default output files or folders: added error message to tell you about it.
+
+## 2022-02-26 (2.2.2)
+- BUGFIX: A fix to the problem that caused the Quick PDF/Quick Word to sometimes fail in Flare 2021r3
+- BUGFIX: A fix to the problem where condition export would not work in Flare 2021r3
+- FEATURE: You can now build a "Quick HTML" target that'll build a CleanXHTML version of the topic you have open. 
+
+## 2021-12-13 (2.2.1)
+- Updated the Kaizenscript functionality so that you can re-install a script without deleting the existing DLL file first. 
+
+## 2021-11-02 (2.2.0)
+- The KaizenScript functionality was redesigned to allow for faster and easier deployment of custom add-ons to the Kaizen Plugin. 
+	- **NOTE:** This means that existing Kaizen Scripts will no longer work. Please e-mail me at mattias@improvementsoft.com for a free conversion. 
+- Bug fix: If you manually put in the MadCap prefix in the tag replacer destination field you would get an error message. No more! :) 
+
+## 2021-10-20 (2.1.4)
+- When opening a file from the TO DO notes function - the Link Viewer would not work. That has been corrected now.
+- Removed the old Kaizen Script functionality.
+- When importing Micro content from Excel, you can now include alternative terms by separating the entries with ";", e.g. Lorem;Ipsum.
+- PDFs created by the Quick PDF feature now get a unique name with a time stamp to avoid conflicts in Adobe Acrobat. 
+- Quick PDF is now more robust. 
+- The condition tag export for files and targets now support condition tags with certain special characters, and includes conditions for targets with the default TOC set.
+
+## 2021-08-03 (2.1.3)
+- The fast file search normal search is now case insensitive. 
+
+## 2021-07-23 (2.1.2)
+- Bug fixes. 
+
 ## 2021-07-09 (2.1.1)
 - Fixed a bug where replacing empty tags would result in a remaining `<REMOVEABC />` tag.
 - Fixed a bug where target condition use export would not include the condition file name if it had a hyphen.

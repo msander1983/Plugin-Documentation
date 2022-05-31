@@ -29,13 +29,14 @@ A rule consists of these parts:
 **Context**
 - The CSS-based context to apply the rule in, for example, to apply it to all paragraph elements, the context would be `p`.
 
-> It is possible to use XPath in the context. For example `.//p` to match all paragraphs.
+> It is possible to use XPath in the context. For example `xpath:.//p` to match all paragraphs.
 
 **Function**
 - The function of the rule. Each function, except the **None** function takes one or more parameters, set in the **Parameters** field. 
 	- **None**. The rule just asserts or reports the presence of the context element, for example `p > h1` to find a heading wrapped in a paragraph tag.
 	- **Regex**. The rule checks for the match of a regular expression in the text value of an element. All inline elements are unbound, so `<p>Lorem <b>ipsum</b> dolor</p>` becomes `Lorem ipsum dolor`.
-		- To develop and test regular expressions, I recommend a site called [RegEx Pal](https://www.regexpal.com/).
+		- To develop and test regular expressions, I recommend a site called [REGEX STORM.NET](http://regexstorm.net/tester).
+	- **RegexInline**. The rule checks for the match of a regular expression in the text value of an element. All inline elements are kept, so `<p>Lorem <b>ipsum</b> dolor</p>` becomes `Lorem <b>ipsum</b> dolor`.
 	- **RawRegex**. The rule matches the text of the entire tag, for example :`<p>Lorem ipsum <MadCap:variable/> dolor</p>` instead of just the text value.
 	- **Word**. The rule checks for the presence of a single word in the context element. For example `checkbox` would match elements with that word.  Optionally - you can suggest an alternative to the matches word, by adding a colon and the replacement word, for example `checkbox:check box`. This provides a suggestion for replacement to the writer
 	- **ListOfWords**. This rule works like the **Word** rule, but on a list of words. For example `checkbox,intelligent`, or, to suggest replacements: `checkbox:check box,intelligent:smart`.
